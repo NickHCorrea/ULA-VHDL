@@ -24,7 +24,7 @@ begin
 		Soma1: component Somador5bits
 		port map(
 			A5 => not A25,
-			B5 => "0001",
+			B5 => "00001",
 			C_in5 => '0',
 			S5 => S25,
 			C_out5=>ov);
